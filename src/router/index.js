@@ -5,6 +5,10 @@ const router = createRouter({
   history: createWebHashHistory(),
   routes: [
     {
+      path: '/',
+      component: Home
+    },
+    {
       path: '/home',
       name: 'home',
       component: Home
@@ -23,6 +27,14 @@ const router = createRouter({
       path: '/order',
       name: 'order',
       component: () => import('@/views/order/Order.vue')
+    },
+    {
+      path: '/city',
+      name: 'city',
+      component: () => import('@/views/city/City.vue'),
+      meta: {
+        hideTabBar: true
+      }
     }
   ]
 })

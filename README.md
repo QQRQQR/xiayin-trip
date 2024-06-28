@@ -27,3 +27,5 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### 源代码下载位置： 06\_阶段 6 ==> vue3 全家桶实战 01-15 ==> code ==> hy-trip05
